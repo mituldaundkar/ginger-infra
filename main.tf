@@ -30,7 +30,7 @@ module "eks" {
     min_nodes          = var.eks_min_nodes
     node_instance_type = var.eks_node_instance_type
     environment        = var.environment
-    depends_on =    ["rds"]
+    depends_on =    [module.rds]
 }
 
 module "s3" {
