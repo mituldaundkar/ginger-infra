@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "ginger-frontend-bu2"
+        bucket = "ginger-infra"
         region = "us-east-2"
         key = "terraform.tfstate"
     }
