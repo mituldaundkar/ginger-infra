@@ -16,5 +16,5 @@ eks_min_nodes          = 2
 eks_node_instance_type = "t3.medium"
 
 # S3 Variables
-s3_bucket_name = "ginger-frontend-bux"
+s3_bucket_name = "ginger-frontend-bu1"
 s3_environment = "dev" 
