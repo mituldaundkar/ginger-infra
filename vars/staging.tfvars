@@ -16,5 +16,5 @@ eks_min_nodes          = 2
 eks_node_instance_type = "t3.large"
 
 # S3 Variables
-s3_bucket_name = "cbz-frontend-staging-bucket1"
+s3_bucket_name = "cbz-frontend-staging-bucket"
 s3_environment = "staging" 
