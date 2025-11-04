@@ -16,7 +16,7 @@ eks_min_nodes          = 3
 eks_node_instance_type = "t3.xlarge"
 
 # S3 Variables
-s3_bucket_name = "cbz-frontend-prod-bucket1"
+s3_bucket_name = "cbz-frontend-prod-bucket"
 s3_environment = "prod" 
 
 
