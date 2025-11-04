@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('PULL') {
             steps {
-                git branch: 'dev', url: 'https://github.com/shubhamkalsait/ginger-infra.git'
+                git branch: 'dev', url: 'https://github.com/mituldaundkar/ginger-infra.git'
             }
         }
         stage('PLAN') {
